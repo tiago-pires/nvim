@@ -6,6 +6,11 @@ local M = {
 
 function M.config()
 	require("telescope").setup {
+		defaults = {
+			layout_config = {
+				prompt_position = 'top'
+			}
+		},
 		pickers = {
 			buffers = {
 				show_all_buffers = true,
