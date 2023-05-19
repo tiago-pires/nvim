@@ -5,7 +5,7 @@ vim.keymap.set("n", "<c-s>", ":update<cr>")
 
 vim.keymap.set("n", "<leader>tw", "<cmd>setlocal wrap! linebreak<cr>")
 
--- ## Move buffers
+-- ## Move buffers, use arrows as <c-h> in term is delete
 vim.keymap.set("n", "<left>", "<c-w>h")
 vim.keymap.set("n", "<right>", "<c-w>l")
 vim.keymap.set("n", "<down>", "<c-w>j")
