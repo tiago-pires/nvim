@@ -2,9 +2,6 @@ vim.g.mapleader = " "
 
 -- ## save
 vim.keymap.set("n", "<c-s>", ":update<cr>")
-vim.keymap.set("n",  "<c-x>", ":bd")
-vim.keymap.set("n",  "<c-h>", ":hide")
-vim.keymap.set("n",  "<c-q>", ":q")
 
 vim.keymap.set("n", "<leader>tw", "<cmd>setlocal wrap! linebreak<cr>")
 
