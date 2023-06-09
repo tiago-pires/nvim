@@ -3,7 +3,8 @@ vim.g.mapleader = " "
 -- ## save
 vim.keymap.set("n", "<c-s>", ":update<cr>")
 
-vim.keymap.set("n", "<leader>tw", "<cmd>setlocal wrap! linebreak<cr>")
+vim.keymap.set("n", "<leader><cr>", "<cmd>setlocal wrap linebreak<cr>")
+vim.keymap.set("n", "<leader>n<cr>", "<cmd>setlocal wrap! linebreak<cr>")
 
 -- ## Move buffers, use arrows as <c-h> in term is delete
 vim.keymap.set("n", "<left>", "<c-w>h")
@@ -41,4 +42,5 @@ vim.keymap.set('v', '<leader>as', ':AIEdit fix grammar and spelling<cr>')
  
 vim.keymap.set('n','<leader>nt',':e ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/Thoughts/')
 vim.keymap.set('n','<leader>nc',':e ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/Coding/')
+
 
