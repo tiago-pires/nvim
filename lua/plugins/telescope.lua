@@ -8,7 +8,7 @@ function M.config()
 	require("telescope").setup {
 		defaults = {
 			layout_config = {
-				prompt_position = 'top'
+				-- prompt_position = 'top'
 			}
 		},
 		pickers = {
@@ -59,11 +59,10 @@ function M.config()
 		"<cmd> lua require('telescope.builtin').find_files { cwd = '/Users/tpires/Library/Mobile Documents/iCloud~md~obsidian/Documents/Coding'}<cr>",
 		{ desc = '[E]xplore [T]ech' })
 
-
 	vim.keymap.set('n', '<leader>rc',
 		"<cmd> lua require('telescope.builtin').live_grep { cwd = '/Users/tpires/Library/Mobile Documents/iCloud~md~obsidian/Documents/Coding'}<cr>",
 		{ desc = '[E]xplore [T]ech' })
-	vim.keymap.set('n', '<leader>l',
+	vim.keymap.set('n', '<leader>el',
 		"<cmd> lua require('telescope.builtin').live_grep { cwd = '~/Dropbox/Notes'}<cr>",
 		{ desc = '[E]xplore [T]ech' })
 
