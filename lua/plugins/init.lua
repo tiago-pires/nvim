@@ -7,6 +7,7 @@ return {
 	'jghauser/follow-md-links.nvim',
 	'madox2/vim-ai', -- vim script
 	'mattn/emmet-vim', -- vim script
+	'Exafunction/codeium.vim', -- vim script
 	{ 'ekickx/clipboard-image.nvim',
 		config = function()
 			require('clipboard-image').setup({
