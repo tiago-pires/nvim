@@ -47,3 +47,5 @@ vim.opt.sidescrolloff = 8
 
 -- vim mardowen net to start with folds
 vim.cmd([[let g:vim_markdown_folding_disabled = 1]])
+-- conceil links and others not under cursor
+vim.cmd([[set conceallevel=3]])
