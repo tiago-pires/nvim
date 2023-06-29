@@ -31,7 +31,6 @@ function M.config()
 	local builtin = require('telescope.builtin')
 
 	vim.keymap.set("n", "<leader><tab>", "<cmd>Telescope oldfiles<cr>")
-	vim.keymap.set("n", "<leader>o", "<cmd>Telescope git_files<cr>")
 
 	vim.keymap.set("n", "<leader>e/", "<cmd>Telescope current_buffer_fuzzy_find<cr>")
 	vim.keymap.set("n", "<leader>eg", "<cmd>Telescope git_files<cr>")
