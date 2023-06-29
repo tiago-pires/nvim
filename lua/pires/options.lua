@@ -49,3 +49,7 @@ vim.opt.sidescrolloff = 8
 vim.cmd([[let g:vim_markdown_folding_disabled = 1]])
 -- conceil links and others not under cursor
 vim.cmd([[set conceallevel=3]])
+-- search ignore
+vim.cmd([[set wildignore+=*/node_modules/*,*/.git/*,*/build/*]])
+
+
