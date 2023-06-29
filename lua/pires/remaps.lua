@@ -31,7 +31,7 @@ vim.keymap.set("v", "<down>", ":m .+1<cr>==V")
 vim.keymap.set("v", "<up>", ":m .-2<cr>==V")
 
 -- ## Fugitive
-vim.keymap.set('n', '<leader>gs', ':G<CR><c-w>o')
+vim.keymap.set('n', 'gs', ':G<CR><c-w>o')
 
 -- ## Vim-ai
 vim.keymap.set('n', '<leader>as', ':AIEdit fix grammar and spelling<cr>')
